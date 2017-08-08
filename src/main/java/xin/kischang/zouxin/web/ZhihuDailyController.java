@@ -28,13 +28,6 @@ public class ZhihuDailyController {
 	@Value("${zhihu.daily.api}")
 	private String zhihuApi;
 
-	@RequestMapping("/")
-	public String welcome(Model model) {
-		model.addAttribute("time", new Date());
-		model.addAttribute("zhihuApi", zhihuApi);
-		return "index";
-	}
-
 	private List<ZhihuDailyItem> all;
 	private long lastUpdate = -1;
 

@@ -3,6 +3,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <body>
-Hi
+Hi, Welcome to KisChang  <a href="http://zoudian.xin/">zoudian.xin</a>
+<br/>
+ZhihuRss > <a href="http://zoudian.xin/apis/rss/zhihu/daily">http://zoudian.xin/apis/rss/zhihu/daily</a>
 </body>
 </html>
